@@ -87,7 +87,7 @@ export const ROSTER: CharacterVariant[] = [
   ...base(
     { base: "spider-man", affiliations: ["Avengers", "Spider-Verse"], synergyTags: ["Spider-Verse", "Street-Level"], relationships: ["iron-man", "miles", "spider-gwen", "daredevil"], theme: THEMES.spider },
     [
-      { name: "Peter Parker", variant: "Classic", rarity: "common", power: 74, desc: "Friendly neighborhood Spider-Man with wits and webbing." },
+      { name: "Spider-Man", variant: "Classic", rarity: "common", power: 74, desc: "Friendly neighborhood Spider-Man with wits and webbing." },
       { name: "Spider-Man", variant: "Iron Spider", rarity: "epic", power: 84, desc: "Stark-built nanotech suit with waldoes and instant-kill mode.", addTags: ["Tech"], addAffil: ["Avengers"] },
       { name: "Spider-Man", variant: "Black Suit", rarity: "rare", power: 80, desc: "The alien suit boosts his power — at a hidden cost.", addTags: ["Symbiote"] },
       { name: "Spider-Man", variant: "Symbiote", rarity: "epic", power: 86, desc: "Fully bonded to the symbiote, aggressive and relentless.", addTags: ["Symbiote"] },
