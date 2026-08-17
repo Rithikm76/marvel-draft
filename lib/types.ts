@@ -79,6 +79,16 @@ export interface SynergyBreakdownItem {
   kind: "affiliation" | "tag" | "duo" | "relationship" | "penalty"
 }
 
+export interface ActiveSynergy {
+  id: string
+  name: string
+  description: string
+  icon: string
+  tier: string
+  bonus: number
+  color: string
+}
+
 export interface ScoreResult {
   total: number // 0-100 final
   synergyScore: number // 0-100 team synergy portion

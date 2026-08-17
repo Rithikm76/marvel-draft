@@ -9,7 +9,11 @@ const toPascal = (key: string) =>
 
 const registry = Lucide as unknown as Record<string, React.ComponentType<LucideProps>>
 
+export function getIcon(name: string): React.ComponentType<LucideProps> {
+  return registry[toPascal(name)] ?? Lucide.Sparkles
+}
+
 export function SynergyIcon({ name, className }: { name: string; className?: string }) {
-  const Comp = registry[toPascal(name)] ?? Lucide.Sparkles
+  const Comp = getIcon(name)
   return <Comp className={className} aria-hidden="true" />
 }

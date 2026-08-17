@@ -14,9 +14,11 @@ function hash(str: string): number {
 export function CharacterPortrait({
   variant,
   className = "",
+  compact = false,
 }: {
   variant: CharacterVariant
   className?: string
+  compact?: boolean
 }) {
   const { from, via, to, glow, emblem } = variant.theme
   const h = hash(variant.id)
@@ -54,18 +56,20 @@ export function CharacterPortrait({
         }}
       />
       {/* large stylized emblem */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <span
-          className="font-display font-bold leading-none tracking-tighter select-none"
-          style={{
-            fontSize: "clamp(3rem, 42cqw, 9rem)",
-            color: "rgba(255,255,255,0.14)",
-            textShadow: `0 0 40px ${glow}88`,
-          }}
-        >
-          {emblem}
-        </span>
-      </div>
+      {!compact && (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span
+            className="font-display font-bold leading-none tracking-tighter select-none"
+            style={{
+              fontSize: "clamp(3rem, 42cqw, 9rem)",
+              color: "rgba(255,255,255,0.14)",
+              textShadow: `0 0 40px ${glow}88`,
+            }}
+          >
+            {emblem}
+          </span>
+        </div>
+      )}
       {/* foreground monogram badge */}
       <div className="absolute inset-0 flex items-center justify-center">
         <span
