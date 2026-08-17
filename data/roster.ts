@@ -241,7 +241,7 @@ export const ROSTER: CharacterVariant[] = [
     { base: "ant-man", affiliations: ["Avengers", "Defenders"], synergyTags: ["Tech", "Street-Level"], relationships: ["wasp", "iron-man"], theme: THEMES.tech },
     [
       { name: "Ant-Man", variant: "Classic", rarity: "common", power: 71, desc: "Scott Lang shrinks and grows with Pym Particles." },
-      { name: "Giant-Man", variant: "Quantum", rarity: "rare", power: 80, desc: "Towering to skyscraper height in the Quantum Realm." },
+      { name: "Ant-Man", variant: "Giant", rarity: "rare", power: 80, desc: "Towering to skyscraper height in the Quantum Realm." },
     ],
   ),
   ...base(
