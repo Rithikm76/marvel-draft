@@ -265,7 +265,7 @@ export const ROSTER: CharacterVariant[] = [
   ),
   ...base(
     { base: "rocket", affiliations: ["Guardians"], synergyTags: ["Cosmic", "Tech"], relationships: ["groot", "star-lord"], theme: THEMES.guardians },
-    [{ name: "Rocket", variant: "Weapons Expert", rarity: "rare", power: 74, desc: "A cybernetically enhanced raccoon with a very big gun." }],
+    [{ name: "Rocket Raccoon", variant: "Weapons Expert", rarity: "rare", power: 74, desc: "A cybernetically enhanced raccoon with a very big gun." }],
   ),
   ...base(
     { base: "groot", affiliations: ["Guardians"], synergyTags: ["Cosmic"], relationships: ["rocket", "star-lord"], theme: THEMES.guardians },
