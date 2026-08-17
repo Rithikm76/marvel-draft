@@ -400,7 +400,7 @@ export const ROSTER: CharacterVariant[] = [
     { base: "sentry", affiliations: ["Avengers", "Thunderbolts"], synergyTags: ["Cosmic", "Cosmic Threat"], relationships: [], antiSynergies: ["Street-Level"], theme: THEMES.gold },
     [
       { name: "Sentry", variant: "Golden Guardian", rarity: "legendary", power: 97, desc: "The power of a million exploding suns — and a fractured mind." },
-      { name: "The Void", variant: "Sentry's Shadow", rarity: "mythic", power: 99, desc: "Sentry's dark half, an apocalyptic force of destruction.", addTags: ["Villain"] },
+      { name: "Sentry", variant: "The Void", rarity: "mythic", power: 99, desc: "Sentry's dark half, an apocalyptic force of destruction.", addTags: ["Villain"] },
     ],
   ),
   ...base(
