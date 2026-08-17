@@ -142,7 +142,6 @@ export const ROSTER: CharacterVariant[] = [
   ...base(
     { base: "scarlet-witch", affiliations: ["Avengers", "Midnight Sons"], synergyTags: ["Magic", "Mystic", "Mutant"], relationships: ["vision", "doctor-strange", "magneto"], theme: THEMES.chaos },
     [
-      { name: "Scarlet Witch", variant: "Classic", rarity: "rare", power: 84, desc: "Hex bolts and probability manipulation warp reality itself." },
       { name: "Scarlet Witch", variant: "MCU", rarity: "epic", power: 89, desc: "Grief-forged chaos magic strong enough to rewrite a town." },
       { name: "Scarlet Witch", variant: "Darkhold", rarity: "legendary", power: 96, desc: "The Scarlet Witch of prophecy, corrupted by the Book of the Damned.", addTags: ["Cosmic Threat"] },
     ],
