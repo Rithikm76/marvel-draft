@@ -106,9 +106,9 @@ export const ROSTER: CharacterVariant[] = [
   ...base(
     { base: "iron-man", affiliations: ["Avengers", "Illuminati"], synergyTags: ["Tech"], relationships: ["spider-man", "captain-america", "hulk", "vision"], theme: THEMES.tech },
     [
-      { name: "Iron Man", variant: "Mark III", rarity: "common", power: 78, desc: "The gold-titanium classic that started the legend." },
-      { name: "Iron Man", variant: "Mark XLVI", rarity: "rare", power: 84, desc: "Civil War era armor, agile and combat-refined." },
-      { name: "Iron Man", variant: "Mark L", rarity: "epic", power: 90, desc: "Nanotech Bleeding Edge armor with modular weaponry." },
+      { name: "Iron Man", variant: "Mark 3", rarity: "common", power: 78, desc: "The gold-titanium classic that started the legend." },
+      { name: "Iron Man", variant: "Mark 46", rarity: "rare", power: 84, desc: "Civil War era armor, agile and combat-refined." },
+      { name: "Iron Man", variant: "Mark 50", rarity: "epic", power: 90, desc: "Nanotech Bleeding Edge armor with modular weaponry." },
       { name: "Iron Man", variant: "Endgame", rarity: "legendary", power: 95, desc: "Wielded the Infinity Stones to save the universe.", addTags: ["Cosmic"] },
       { name: "Iron Man", variant: "Hulkbuster", rarity: "epic", power: 91, desc: "Veronica-deployed heavy armor built to go toe-to-toe with a Hulk.", addTags: ["Gamma"] },
     ],
