@@ -252,7 +252,7 @@ export const ROSTER: CharacterVariant[] = [
     { base: "vision", affiliations: ["Avengers"], synergyTags: ["Tech", "Mystic"], relationships: ["scarlet-witch", "iron-man", "ultron"], theme: THEMES.witch },
     [
       { name: "Vision", variant: "Classic", rarity: "rare", power: 85, desc: "Synthezoid powered by the Mind Stone, density-shifting android." },
-      { name: "White Vision", variant: "Rebuilt", rarity: "epic", power: 87, desc: "The rebooted, emotionless synthezoid seeking his identity." },
+      { name: "Vision", variant: "Rebuilt", rarity: "epic", power: 87, desc: "The rebooted, emotionless synthezoid seeking his identity." },
     ],
   ),
   ...base(
