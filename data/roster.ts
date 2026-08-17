@@ -149,7 +149,6 @@ export const ROSTER: CharacterVariant[] = [
   ...base(
     { base: "doctor-strange", affiliations: ["Avengers", "Defenders", "Midnight Sons", "Illuminati"], synergyTags: ["Mystic", "Magic"], relationships: ["scarlet-witch", "wong", "iron-man"], theme: THEMES.mystic },
     [
-      { name: "Doctor Strange", variant: "Classic", rarity: "rare", power: 85, desc: "Master of the Mystic Arts and keeper of the Sanctum." },
       { name: "Doctor Strange", variant: "MCU", rarity: "epic", power: 88, desc: "Time Stone bearer who saw fourteen million futures." },
       { name: "Doctor Strange", variant: "Sorcerer Supreme", rarity: "legendary", power: 95, desc: "The undisputed defender of Earth's dimension.", addTags: ["Cosmic"] },
     ],
@@ -206,7 +205,7 @@ export const ROSTER: CharacterVariant[] = [
     { base: "storm", affiliations: ["X-Men", "Wakandan"], synergyTags: ["Mutant", "Wakandan"], relationships: ["black-panther", "cyclops", "jean-grey", "wolverine"], theme: THEMES.storm },
     [
       { name: "Storm", variant: "Classic", rarity: "rare", power: 83, desc: "Ororo Munroe commands the weather as a living goddess." },
-      { name: "Storm", variant: "Goddess", rarity: "epic", power: 89, desc: "Worshipped as a deity, wielding elemental fury.", addTags: ["Cosmic"] },
+      { name: "Storm", variant: "Goddess of Thunder", rarity: "epic", power: 89, desc: "Worshipped as a deity, wielding elemental fury.", addTags: ["Cosmic"] },
     ],
   ),
   ...base(
