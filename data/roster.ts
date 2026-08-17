@@ -136,7 +136,7 @@ export const ROSTER: CharacterVariant[] = [
       { name: "Wolverine", variant: "Classic", rarity: "rare", power: 85, desc: "Adamantium claws, healing factor, and a bad attitude." },
       { name: "Wolverine", variant: "Weapon X", rarity: "epic", power: 88, desc: "The berserker product of the Weapon X program." },
       { name: "Wolverine", variant: "Old Man Logan", rarity: "epic", power: 87, desc: "A weathered future Logan who has seen the heroes fall." },
-      { name: "Wolverine", variant: "Phoenix", rarity: "legendary", power: 95, desc: "Bonded to the Phoenix Force — claws wreathed in cosmic fire.", addTags: ["Cosmic", "Telepath"] },
+      { name: "Wolverine", variant: "Phoenix Force", rarity: "legendary", power: 95, desc: "Bonded to the Phoenix Force — claws wreathed in cosmic fire.", addTags: ["Cosmic", "Telepath"] },
     ],
   ),
   ...base(
