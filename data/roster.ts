@@ -212,7 +212,7 @@ export const ROSTER: CharacterVariant[] = [
     { base: "cyclops", affiliations: ["X-Men"], synergyTags: ["Mutant"], relationships: ["jean-grey", "wolverine", "storm", "professor-x"], theme: THEMES.mutant },
     [
       { name: "Cyclops", variant: "Classic", rarity: "common", power: 78, desc: "Field leader of the X-Men with unerring optic blasts." },
-      { name: "Cyclops", variant: "Phoenix Five", rarity: "epic", power: 90, desc: "A fragment of the Phoenix Force burning through his optic beams.", addTags: ["Cosmic"] },
+      { name: "Cyclops", variant: "Phoenix Force", rarity: "epic", power: 90, desc: "A fragment of the Phoenix Force burning through his optic beams.", addTags: ["Cosmic"] },
     ],
   ),
   ...base(
